@@ -83,5 +83,18 @@ public class Contacts {
         EmailId = emailId;
     }
 
-
+    @Override
+    public String toString() {
+        return "Contacts{" +
+                "Contact_Id=" + Contact_Id +
+                ", FirstName='" + FirstName + '\'' +
+                ", LastName='" + LastName + '\'' +
+                ", Address='" + Address + '\'' +
+                ", City='" + City + '\'' +
+                ", State='" + State + '\'' +
+                ", ZipCode='" + ZipCode + '\'' +
+                ", PhoneNumber='" + PhoneNumber + '\'' +
+                ", EmailId='" + EmailId + '\'' +
+                '}';
+    }
 }
